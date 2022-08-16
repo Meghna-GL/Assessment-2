@@ -6,6 +6,7 @@ import About from "./components/dashBoard.js/About";
 import Home from "./components/dashBoard.js/Home";
 import Error from "./components/dashBoard.js/Error";
 import Login from "./components/Login";
+import SignUp from "./components/SignUp";
 
 function App() {
   return (
@@ -16,7 +17,8 @@ function App() {
       <Route path="/about" element={<About/>}/>
       <Route path="*" element={<Error/>}/>
       <Route path="/products" element={<Products/>}/>
-      <Route path="/LOGIN" element={<Login/>}/>
+      <Route path="/login" element={<Login/>}/>
+      <Route path="/signup" element={<SignUp/>}/>
 
     </Route>
    </Routes>
