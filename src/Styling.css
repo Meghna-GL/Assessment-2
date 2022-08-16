@@ -191,3 +191,49 @@ body {
   .to-right{
     margin-left: 70%;
   }
+
+  /* TEMPORARY STYLING FOR PRODUTS*/
+
+.tempH2{
+  color: white;
+  text-align: center;
+  font-size: 3rem;
+  margin: 0 0 2em;
+}
+
+.containerProduct{
+  max-width: 1300px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+}
+
+.boxP{
+  background-color: #f8f8ff33;
+  width: 30%;
+  margin: 10px;
+  padding: 20px;
+  box-shadow: 2px 2px 10px white;
+}
+
+.titleProduct{
+  color: white;
+  text-align: center;
+}
+
+.boxP p{
+  color: rgba(255, 252, 252, 0.786);
+  font-size: 0.9rem;
+}
+
+.boxP img{
+  width: 300px;
+  object-fit: contain;
+  padding-left: 10%;
+}
+
+.alignment{
+  text-align: center;
+}
