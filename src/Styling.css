@@ -84,16 +84,16 @@ body {
   #body-header {
     /* height: 20vh; */
     opacity: 0.9;
-    font-size: 2em;
     /* background-color: rgb(0, 0, 0); */
     /* background-size: cover;
       background-position: center;
       background-attachment: fixed; */
-    padding-top: 1.2rem;
     color: white;
+    /* background-color: black; */
+    background-color: #f8f8ff33;
   }
   
-  /*-----------------------NAV BAR ELEMENTS-----------*/
+  /* -----------------------NAV BAR ELEMENTS-----------
   .horizontal-list {
     font-size: 2rem;
     list-style: none;
@@ -105,7 +105,7 @@ body {
     display: inline-block; 
     margin: 0px 25px 25px 0px;
   }
-  
+   
   .horizontal-list li a {
     color: white;
     text-decoration: none;
@@ -116,7 +116,8 @@ body {
   .horizontal-list li a:hover {
     color: burlywood;
   
-  }
+  } 
+  */
   
   .formbox{
     display: inline-block;
@@ -174,4 +175,19 @@ body {
 
   .container{
     align-items: center;
+  }
+
+  /*------------------------navbar items hover and active link property---------------------------*/
+
+  .nav-link{
+    color: white;
+  }
+
+  .nav-link:hover{
+    color: grey
+  }
+
+
+  .to-right{
+    margin-left: 70%;
   }
